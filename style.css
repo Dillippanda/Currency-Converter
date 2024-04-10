@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.amount p{
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: rgb(227, 235, 243);
+    padding: 2%;
+    border-radius: 2%;
+    height: 70vh;
+    width: 55vw;
+}
+form{
+    margin-top: 3%;
+    
+
+}
+from select,button,input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    
+}
+input{
+    height: 5vh;
+    border: 1px solid pink;
+    font-size: 18px;
+    padding-left: 7px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:2%;
+    
+}
+.dropdown i{
+    margin-top: 7%;
+}
+.select-container img{
+    width: 45%;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    border-radius:5px ;
+    border: 1px solid rgb(156, 155, 155);
+
+}
+.select-container select{
+    border: none;
+    width: auto;
+    cursor: pointer;
+    width: 10vw;
+}
+.msg{
+    margin: 10% 0 10% 0;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+form button{
+height: 5vh;
+background-color: darkorchid;
+color: wheat;
+font-size: 110%;
+cursor: pointer;
+
+}
