@@ -84,3 +84,26 @@ font-size: 110%;
 cursor: pointer;
 
 }
+@media (max-width: 500px) {
+  .container {
+    height: 52vh;
+    width: 85vw;
+  }
+
+  .msg {
+    font-size: 130%;
+  }
+
+  .dropdown {
+    height: 125px;
+  }
+
+  .select-container {
+    height: 70px;
+    width: 120px;
+  }
+
+  img {
+    height: 90%;
+  }
+}
