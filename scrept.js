@@ -39,7 +39,8 @@ else{
         let response= await fetch(URL);
     let data=await response.json();
     let rate=data.rates[toCurr.value];
-let finalAmount = amtVal * rate ;
+let Amount = amtVal * rate ;
+var finalAmount = Amount.toFixed(3);
 
 msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`
     }
